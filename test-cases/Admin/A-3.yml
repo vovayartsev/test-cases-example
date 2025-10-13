@@ -1,0 +1,14 @@
+---
+id: A-3
+section: Admin
+feature: Delete/Cancel Event
+date_created: 2025-10-13
+---
+Steps:
+1. Select event from admin dashboard
+2. Click "Delete/Cancel" option
+3. Confirm deletion warning modal appears
+4. Verify event is removed from public listings
+5. Check that ticket holders receive cancellation notification
+6. Confirm refund process is triggered
+7. Verify event moves to "Archived" status

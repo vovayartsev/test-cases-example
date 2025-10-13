@@ -1,0 +1,14 @@
+---
+id: C-2
+section: Checkout
+feature: Apply Promo Code
+date_created: 2025-10-13
+---
+Steps:
+1. Proceed to checkout with selected tickets
+2. Enter promo code in designated field
+3. Click "Apply"
+4. Verify discount is calculated correctly
+5. Check price updates in order summary
+6. Test invalid promo code handling
+7. Verify expired promo code rejection

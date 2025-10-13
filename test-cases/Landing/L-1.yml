@@ -1,0 +1,12 @@
+---
+id: L-1
+section: Landing
+feature: Browse Available Events
+date_created: 2025-10-13
+---
+Steps:
+1. Navigate to homepage
+2. Verify events display in grid/list format
+3. Confirm event cards show: title, date, venue, price range, thumbnail
+4. Verify events load within 3 seconds
+5. Check responsive design on mobile/tablet

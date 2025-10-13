@@ -1,0 +1,12 @@
+---
+id: L-3
+section: Landing
+feature: Filter Events by Category
+date_created: 2025-10-13
+---
+Steps:
+1. Locate filter options (concerts, sports, theater, comedy, etc.)
+2. Select one or multiple categories
+3. Verify only events matching selected categories display
+4. Clear filters and confirm all events return
+5. Test filter combinations

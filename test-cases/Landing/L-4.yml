@@ -1,0 +1,12 @@
+---
+id: L-4
+section: Landing
+feature: View Event Details
+date_created: 2025-10-13
+---
+Steps:
+1. Click on any event card
+2. Verify navigation to event detail page
+3. Confirm page displays: full description, date/time, venue map, seating chart, pricing tiers
+4. Test "Back" button returns to landing page
+5. Verify social share buttons work

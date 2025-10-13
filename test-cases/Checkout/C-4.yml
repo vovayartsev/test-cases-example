@@ -1,0 +1,14 @@
+---
+id: C-4
+section: Checkout
+feature: Receive Confirmation
+date_created: 2025-10-13
+---
+Steps:
+1. After successful payment, verify confirmation page displays
+2. Check order number and ticket details shown
+3. Verify confirmation email sent to user
+4. Confirm email contains: QR code, event details, venue info
+5. Test PDF ticket download
+6. Verify tickets added to user account
+7. Check "Add to Calendar" functionality

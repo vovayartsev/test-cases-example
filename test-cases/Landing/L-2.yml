@@ -1,0 +1,13 @@
+---
+id: L-2
+section: Landing
+feature: Search Events
+date_created: 2025-10-13
+---
+Steps:
+1. Click on search bar
+2. Enter event name (partial or full)
+3. Verify autocomplete suggestions appear
+4. Select event from suggestions or press Enter
+5. Confirm search results display matching events
+6. Test with invalid search term and verify "no results" message

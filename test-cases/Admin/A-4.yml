@@ -1,0 +1,13 @@
+---
+id: A-4
+section: Admin
+feature: View Sales Reports
+date_created: 2025-10-13
+---
+Steps:
+1. Access "Reports" section in admin panel
+2. Select date range for report
+3. Verify report shows: total tickets sold, revenue, tickets remaining
+4. Check breakdown by ticket tier
+5. Test export to CSV/PDF functionality
+6. Verify real-time data updates

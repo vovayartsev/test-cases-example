@@ -1,0 +1,15 @@
+---
+id: C-3
+section: Checkout
+feature: Complete Payment
+date_created: 2025-10-13
+---
+Steps:
+1. Review order summary
+2. Enter billing information
+3. Select payment method (credit card, PayPal, etc.)
+4. Enter payment details
+5. Click "Complete Purchase"
+6. Verify payment processing indicator
+7. Test payment failure scenarios
+8. Check security (SSL, PCI compliance)

@@ -1,0 +1,13 @@
+---
+id: A-5
+section: Admin
+feature: Manage User Accounts
+date_created: 2025-10-13
+---
+Steps:
+1. Navigate to "Users" section
+2. Search for specific user by email/name
+3. View user purchase history
+4. Test ability to refund user tickets
+5. Verify user account suspension/activation
+6. Check user role permissions (admin, organizer, customer)

@@ -1,0 +1,14 @@
+---
+id: C-1
+section: Checkout
+feature: Select Tickets
+date_created: 2025-10-13
+---
+Steps:
+1. From event page, click "Buy Tickets"
+2. Select ticket quantity for each tier
+3. Verify seat selection interface (if applicable)
+4. Confirm selected seats are temporarily held
+5. Check ticket availability in real-time
+6. Test maximum ticket limit per transaction
+7. Verify timer countdown for held tickets

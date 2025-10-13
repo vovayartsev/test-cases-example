@@ -8,10 +8,11 @@ This is a test case management system that stores test cases as YAML files and e
 
 ## Commands
 
-### Running the Application
+### Running the Streamlit Dashboard
 ```bash
-uv run main.py
+uv run streamlit run main.py
 ```
+This launches the interactive Test Case Manager dashboard at http://localhost:8501
 
 ### Dependencies
 This project uses `uv` for dependency management. Install dependencies with:
@@ -20,7 +21,9 @@ uv sync
 ```
 
 ### Python Version
-Requires Python 3.11 or higher. The project uses Streamlit (version 1.50.0+) as a dependency.
+Requires Python 3.11 or higher. Dependencies include:
+- Streamlit (1.50.0+) - Web dashboard framework
+- PyYAML (6.0.3+) - YAML parsing for test cases
 
 ## Repository Structure
 
@@ -58,10 +61,23 @@ The `template.csv` file contains the basic structure, while other CSV files (e.g
 
 ## Architecture Notes
 
+- **main.py**: Streamlit dashboard application that provides a web UI for managing test cases
+  - `load_test_cases()`: Recursively loads all YAML test cases from the `test-cases/` directory
+  - `generate_csv()`: Exports selected test cases to CSV format with empty QA-pass and Notes columns
+  - Uses Streamlit session state to track user selections across page interactions
 - Test cases are the source of truth and are stored as individual YAML files for version control and easy editing
 - CSV files in `test-runs/` are generated from YAML test cases and include additional columns for tracking test execution results
 - Steps in CSV format use multi-line text with numbered steps, preserving the exact formatting from YAML
 - Each test case has a unique ID that follows the section prefix pattern for easy categorization
+
+## Using the Dashboard
+
+The Streamlit dashboard provides:
+1. **Browse test cases**: View all test cases organized by section (Admin, Checkout, Landing)
+2. **Filter by section**: Use the sidebar to filter test cases by specific sections
+3. **Select test cases**: Check individual test cases or use "Select All" / "Deselect All" buttons
+4. **Preview selection**: View a table of all selected test cases before export
+5. **Export to CSV**: Generate a test run CSV file with custom filename for tracking test execution
 
 ## Working with Test Cases
 

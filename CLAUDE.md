@@ -86,3 +86,10 @@ When creating or modifying test cases:
 2. Follow the section-based ID prefix convention (L-, A-, C-)
 3. Keep steps numbered and action-oriented
 4. Ensure each test case focuses on a single feature or user flow
+
+## Rendering test run
+
+When asked to render a test run for a certain criteria
+1. read test cases and remember matching IDs
+2. pass these IDs to render.py, e.g.: `python render.py L-1 L-2 A-3` - this will create `/tmp/test-run.csv`
+3. collaborate with the user by adding/removing lines to  /tmp/test-run.csv

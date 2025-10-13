@@ -1,0 +1,9 @@
+id,Section,Feature,Steps,QA-pass,Notes
+A-1,Admin,Create New Event,"1. Log in to admin panel
+2. Click ""Create Event"" button
+3. Fill in required fields: title, description, date, venue, capacity
+4. Upload event image
+5. Set pricing tiers and availability
+6. Click ""Publish""
+7. Verify event appears in public listings
+8. Test validation for missing required fields",,

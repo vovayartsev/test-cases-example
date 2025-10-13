@@ -1,0 +1,44 @@
+id,Section,Feature,Steps,QA-pass,Notes
+"A-1","Admin","Create New Event","1. Log in to admin panel
+2. Click ""Create Event"" button
+3. Fill in required fields: title, description, date, venue, capacity
+4. Upload event image
+5. Set pricing tiers and availability
+6. Click ""Publish""
+7. Verify event appears in public listings
+8. Test validation for missing required fields",,
+"A-2","Admin","Edit Existing Event","1. Navigate to admin event list
+2. Select event to edit
+3. Modify event details (title, date, pricing)
+4. Save changes
+5. Verify updates reflect on public event page
+6. Check that existing bookings remain valid
+7. Test edit history/audit log",,
+"A-3","Admin","Delete/Cancel Event","1. Select event from admin dashboard
+2. Click ""Delete/Cancel"" option
+3. Confirm deletion warning modal appears
+4. Verify event is removed from public listings
+5. Check that ticket holders receive cancellation notification
+6. Confirm refund process is triggered
+7. Verify event moves to ""Archived"" status",,
+"L-1","Landing","Browse Available Events","1. Navigate to homepage
+2. Verify events display in grid/list format
+3. Confirm event cards show: title, date, venue, price range, thumbnail
+4. Verify events load within 3 seconds
+5. Check responsive design on mobile/tablet",,
+"L-2","Landing","Search Events","1. Click on search bar
+2. Enter event name (partial or full)
+3. Verify autocomplete suggestions appear
+4. Select event from suggestions or press Enter
+5. Confirm search results display matching events
+6. Test with invalid search term and verify ""no results"" message",,
+"L-3","Landing","Filter Events by Category","1. Locate filter options (concerts, sports, theater, comedy, etc.)
+2. Select one or multiple categories
+3. Verify only events matching selected categories display
+4. Clear filters and confirm all events return
+5. Test filter combinations",,
+"L-4","Landing","View Event Details","1. Click on any event card
+2. Verify navigation to event detail page
+3. Confirm page displays: full description, date/time, venue map, seating chart, pricing tiers
+4. Test ""Back"" button returns to landing page
+5. Verify social share buttons work",,

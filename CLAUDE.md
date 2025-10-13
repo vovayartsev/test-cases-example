@@ -87,9 +87,15 @@ When creating or modifying test cases:
 3. Keep steps numbered and action-oriented
 4. Ensure each test case focuses on a single feature or user flow
 
+## All test cases rendered
+
+Start session with reading the cache in order to learn test case IDs by heart:
+@cache.txt
+
 ## Rendering test run
 
 When asked to render a test run for a certain criteria
-1. read test cases and remember matching IDs
+1. use your knowledge of test suite (cache above) to pick IDs for the test run 
 2. pass these IDs to render.py, e.g.: `python render.py L-1 L-2 A-3` - this will create `/tmp/test-run.csv`
-3. collaborate with the user by adding/removing lines to  /tmp/test-run.csv
+3. execute `open /tmp/test-run.csv` to start Numbers app with the test run created
+

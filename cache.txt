@@ -1,0 +1,175 @@
+---
+id: A-1
+section: Admin
+feature: Create New Event
+date_created: 2025-10-13
+---
+Steps:
+1. Log in to admin panel
+2. Click "Create Event" button
+3. Fill in required fields: title, description, date, venue, capacity
+4. Upload event image
+5. Set pricing tiers and availability
+6. Click "Publish"
+7. Verify event appears in public listings
+8. Test validation for missing required fields
+---
+id: A-2
+section: Admin
+feature: Edit Existing Event
+date_created: 2025-10-13
+---
+Steps:
+1. Navigate to admin event list
+2. Select event to edit
+3. Modify event details (title, date, pricing)
+4. Save changes
+5. Verify updates reflect on public event page
+6. Check that existing bookings remain valid
+7. Test edit history/audit log
+---
+id: A-3
+section: Admin
+feature: Delete/Cancel Event
+date_created: 2025-10-13
+---
+Steps:
+1. Select event from admin dashboard
+2. Click "Delete/Cancel" option
+3. Confirm deletion warning modal appears
+4. Verify event is removed from public listings
+5. Check that ticket holders receive cancellation notification
+6. Confirm refund process is triggered
+7. Verify event moves to "Archived" status
+---
+id: A-4
+section: Admin
+feature: View Sales Reports
+date_created: 2025-10-13
+---
+Steps:
+1. Access "Reports" section in admin panel
+2. Select date range for report
+3. Verify report shows: total tickets sold, revenue, tickets remaining
+4. Check breakdown by ticket tier
+5. Test export to CSV/PDF functionality
+6. Verify real-time data updates
+---
+id: A-5
+section: Admin
+feature: Manage User Accounts
+date_created: 2025-10-13
+---
+Steps:
+1. Navigate to "Users" section
+2. Search for specific user by email/name
+3. View user purchase history
+4. Test ability to refund user tickets
+5. Verify user account suspension/activation
+6. Check user role permissions (admin, organizer, customer)
+---
+id: C-1
+section: Checkout
+feature: Select Tickets
+date_created: 2025-10-13
+---
+Steps:
+1. From event page, click "Buy Tickets"
+2. Select ticket quantity for each tier
+3. Verify seat selection interface (if applicable)
+4. Confirm selected seats are temporarily held
+5. Check ticket availability in real-time
+6. Test maximum ticket limit per transaction
+7. Verify timer countdown for held tickets
+---
+id: C-2
+section: Checkout
+feature: Apply Promo Code
+date_created: 2025-10-13
+---
+Steps:
+1. Proceed to checkout with selected tickets
+2. Enter promo code in designated field
+3. Click "Apply"
+4. Verify discount is calculated correctly
+5. Check price updates in order summary
+6. Test invalid promo code handling
+7. Verify expired promo code rejection
+---
+id: C-3
+section: Checkout
+feature: Complete Payment
+date_created: 2025-10-13
+---
+Steps:
+1. Review order summary
+2. Enter billing information
+3. Select payment method (credit card, PayPal, etc.)
+4. Enter payment details
+5. Click "Complete Purchase"
+6. Verify payment processing indicator
+7. Test payment failure scenarios
+8. Check security (SSL, PCI compliance)
+---
+id: C-4
+section: Checkout
+feature: Receive Confirmation
+date_created: 2025-10-13
+---
+Steps:
+1. After successful payment, verify confirmation page displays
+2. Check order number and ticket details shown
+3. Verify confirmation email sent to user
+4. Confirm email contains: QR code, event details, venue info
+5. Test PDF ticket download
+6. Verify tickets added to user account
+7. Check "Add to Calendar" functionality
+---
+id: L-1
+section: Landing
+feature: Browse Available Events
+date_created: 2025-10-13
+---
+Steps:
+1. Navigate to homepage
+2. Verify events display in grid/list format
+3. Confirm event cards show: title, date, venue, price range, thumbnail
+4. Verify events load within 3 seconds
+5. Check responsive design on mobile/tablet
+---
+id: L-2
+section: Landing
+feature: Search Events
+date_created: 2025-10-13
+---
+Steps:
+1. Click on search bar
+2. Enter event name (partial or full)
+3. Verify autocomplete suggestions appear
+4. Select event from suggestions or press Enter
+5. Confirm search results display matching events
+6. Test with invalid search term and verify "no results" message
+---
+id: L-3
+section: Landing
+feature: Filter Events by Category
+date_created: 2025-10-13
+---
+Steps:
+1. Locate filter options (concerts, sports, theater, comedy, etc.)
+2. Select one or multiple categories
+3. Verify only events matching selected categories display
+4. Clear filters and confirm all events return
+5. Test filter combinations
+---
+id: L-4
+section: Landing
+feature: View Event Details
+date_created: 2025-10-13
+---
+Steps:
+1. Click on any event card
+2. Verify navigation to event detail page
+3. Confirm page displays: full description, date/time, venue map, seating chart, pricing tiers
+4. Test "Back" button returns to landing page
+5. Verify social share buttons work

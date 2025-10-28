@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "1b8c2711b3dea64f",
+        "id": "4b67baeb091ef908",
         "type": "tabs",
         "children": [
           {
-            "id": "19c89b2fa2387241",
+            "id": "2b5fff8b243a8ef9",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -169,11 +169,16 @@
       "bases:Create new base": false
     }
   },
-  "active": "19c89b2fa2387241",
+  "active": "2b5fff8b243a8ef9",
   "lastOpenFiles": [
-    "attachments/fix-car.png",
-    "test-cases/Admin/A-2.md",
     "test-cases/Admin/A-1.md",
+    "test-runs/Untitled.canvas",
+    "test-cases/Admin/A-2.md",
+    "test-cases/Admin/A-5.md",
+    "test-cases/Admin/A-4.md",
+    "test-cases/Admin/A-3.md",
+    "test-runs/Untitled.md",
+    "attachments/fix-car.png",
     "attachments/rocket-science.png",
     "attachments"
   ]

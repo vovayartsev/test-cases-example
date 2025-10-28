@@ -1,0 +1,10 @@
+{
+	"nodes":[
+		{"id":"748ee606086d160b","type":"file","file":"test-cases/Admin/A-1.md","x":-560,"y":-520,"width":400,"height":400,"color":"4"},
+		{"id":"6b707417c082e95d","type":"text","text":"Not working as expected","x":180,"y":80,"width":250,"height":60,"color":"1"},
+		{"id":"970bc4765fd3cf5a","type":"file","file":"test-cases/Admin/A-2.md","x":-560,"y":80,"width":480,"height":400,"color":"1"}
+	],
+	"edges":[
+		{"id":"26be72f350531ba4","fromNode":"970bc4765fd3cf5a","fromSide":"right","toNode":"6b707417c082e95d","toSide":"bottom"}
+	]
+}
